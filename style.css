@@ -1,0 +1,596 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+button{
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    color: hsl(229, 8%, 60%);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    color:hsl(229, 8%, 60%);
+}
+header{
+    display: flex;
+}
+#Features{
+    margin-left: 600px;
+}
+.menu{
+    margin: 30px 10px;
+    letter-spacing: 2px;
+}
+.menu:hover{
+    color:hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+#logo{
+    margin: 25px 50px;
+}
+#login{
+    border-radius: 5px;
+    border: none;
+    color:white;
+    background-color: hsl(0, 94%, 66%);
+    width:80px;
+    height:35px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+#login:hover{
+    color:hsl(0, 94%, 66%);
+    background-color: white;
+    border: 1px solid hsl(0, 94%, 66%);
+}
+.section1{
+    display: flex;
+}
+.text{
+    margin:auto;
+    text-align: left;
+}
+#chrome{
+    background-color: hsl(231, 69%, 60%);
+    color:white;
+    border-radius: 5px;
+    width: 120px;
+    height:40px;
+    border: none;
+}
+#firefox{
+    background-color: white;
+    color:hsl(229, 8%, 60%);
+    border-radius: 5px;
+    width: 120px;
+    height:40px;
+    border: none;
+    margin-left: 30px;
+    border: 1px solid black;
+}
+#firefoxtext{
+    color:hsl(229, 8%, 60%);
+}
+#firefox:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+#chrome:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+#pic{
+    margin-right: 30px;
+}
+#feature{
+    text-align: center;
+    margin: auto;
+}
+.slider{
+    display: flex;
+    margin-left: 400px;
+}
+#bookN{
+    border-bottom: 2px solid hsl(0, 94%, 66%);
+    padding-right: 10px;
+    color: hsl(0, 94%, 66%);
+}
+#bookN:hover{
+    cursor: pointer;
+}
+#speedyN:hover{
+    cursor: pointer;
+}
+#easyN:hover{
+    cursor: pointer;
+}
+#speedyN{
+    border-bottom: 2px solid hsl(229, 8%, 60%);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: hsl(229, 8%, 60%);
+}
+#easyN{
+    border-bottom: 2px solid hsl(229, 8%, 60%);
+    padding-left: 10px;
+    color: hsl(229, 8%, 60%);
+}
+#simple{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#quick{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#easySec{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.pic2{
+    margin-left: 150px;
+}
+.beg{
+    text-align: center;
+    margin: auto;
+}
+.extensions{
+    display: flex;
+}
+.ex{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width:280px;
+    margin-left: 80px;
+    text-align: center;
+    box-shadow: 1px 2px 2px 1px rgba(104, 104, 104, 0.75);
+    -webkit-box-shadow: 1px 2px 2px 1px rgba(84, 83, 83, 0.75);
+    -moz-box-shadow: 1px 2px 2px 1px rgba(80, 79, 79, 0.75);
+    margin-bottom: 30px;
+    height:250px;
+}
+.btnex{
+    width: max-content;
+    padding: 10px 20px;
+    background-color: hsl(229, 31%, 21%);
+    border-radius: 5px;
+    border: none;
+    color:white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.btnex:hover{
+    background-color:white ;
+    color: hsl(229, 31%, 21%);
+    border: 1px solid hsl(229, 31%, 21%);
+    cursor: pointer;
+}
+#chromes{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+#firefoxs{
+    margin-top: 40px;
+}
+#opera{
+    margin-top: 60px;
+}
+.svgex{
+    margin-left: 90px;
+}
+h5{
+    margin: 0;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.version{
+    font-size: 14px;
+}
+.one{
+    width:600px;
+    margin: auto;
+}
+.shown{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+h4{
+    margin: 0px;
+}
+#hidden{
+    display: none;
+}
+#hidden.h{
+    display: block;
+}
+#hidden1{
+    display: none;
+}
+#hidden1.h{
+    display: block;
+}
+#hidden2{
+    display: none;
+}
+#hidden2.h{
+    display: block;
+}
+.faq{
+    margin-bottom: 40px;
+}
+#more{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 640px;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border-radius: 5px;
+    width:100px;
+    border: none;
+    height: 40px;
+}
+#more:hover{
+    cursor: pointer;
+    background-color: white;
+    color:hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+}
+.contact{
+    text-align: center;
+}
+.contact{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    padding: 30px 0px;
+
+}
+.in{
+display: flex;
+}
+.btnin{
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    border-radius: 5px;
+    width:100px;
+    border: none;
+    height: 40px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 500px;
+    margin-right: 30px;
+}
+h6{
+    letter-spacing: 2px;
+}
+footer{
+    display: flex;
+    background-color: hsl(229, 31%, 21%);
+    color: white;
+}
+.menus{
+    color: white;
+    margin-left: 40px;
+}
+.menus:hover{
+    color: hsl(0, 94%, 66%);
+}
+.icon1{
+    margin-left: 500px;
+    margin-top: 15px;
+}
+.icon{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+#logo2{
+    display: none;
+}
+@media only screen and (max-width:1000px){
+    #Features{
+        margin-left: 300px;
+    }
+    .section1{
+        margin-left: 70px;
+    }
+    #logo{
+        margin-right: 0px;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+    #firefox{
+        margin-left: 0px;
+    }
+    .slider{
+        margin-left: 200px;
+    }
+    .pic2{
+        margin-left: 50px;
+    }
+    #chromes{
+        margin-left: 50px;
+    }
+    #more{
+        margin-left: 450px;
+    }
+    input{
+        margin-left: 250px;
+    }
+}
+@media only screen and (max-width:900px){
+    #pic{
+        transform: scale(0.9);
+        margin: 0px;
+    }
+    .text{
+        margin: 0;
+        margin-left: 50px;
+    }
+    #Features{
+        margin-left: 200px;
+    }
+    .section1{
+        margin-left: 70px
+    }
+    #logo{
+        margin-right: 0px;
+        margin-left: 10px;
+        width: 150px;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+    #firefox{
+        margin-left: 0px;
+    }
+    .slider{
+        margin-left: 200px;
+    }
+    .pic2{
+        margin-left: 30px;
+        transform: scale(0.9);
+    }
+    #chromes{
+        margin-left: 30px;
+    }
+    #more{
+        margin-left: 420px;
+    }
+    input{
+        margin-left: 220px;
+    }
+}
+@media only screen and (max-width:800px){
+    #pic{
+        transform: scale(0.7);
+    }
+    .ex{
+        width: 280px;
+        margin-left: 10px;
+    }
+    .text{
+        margin-right: 20px;
+        width: 250px;
+    }
+    #Features{
+        margin-left: 200px;
+    }
+    .section1{
+        margin-left: 70px;
+    }
+    #logo{
+        margin-right: 0px;
+        margin-left: 10px;
+        width: max-content
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+    #firefox{
+        margin-left: 0px;
+    }
+    .slider{
+        margin-left: 150px;
+    }
+    .pic2{
+        margin-left: 10px;
+        transform: scale(0.7);
+    }
+    #chromes{
+        margin-left: 0px;
+    }
+    #more{
+        margin-left: 360px;
+    }
+    input{
+        margin-left: 180px;
+    }
+    .icon1{
+        margin-left: 200px;
+    }
+}
+@media only screen and (max-width:600px){
+    #pic{
+        transform: scale(1);
+    }
+    .ex{
+        width: 200px;
+        margin-left: 25px;
+        height: 260px;
+    }
+    .text{
+        margin-right: 0px;
+        width: 350px;
+    }
+    #Features{
+        margin-left: 10px;
+    }
+    .section1{
+        margin-left: 30px;
+        flex-direction: column-reverse;
+    }
+    #logo{
+        margin-right: 0px;
+        margin-left: 10px;
+        width: max-content;
+    }
+    .btns{
+        display: flex;
+        flex-direction: row;
+    }
+    #firefox{
+        margin-left: 0px;
+    }
+    .slider{
+        margin-left: 40px;
+    }
+    .pic2{
+        margin-left: 10px;
+        transform: scale(0.5);
+    }
+    #chromes{
+        margin-left: 20px;
+    }
+    #more{
+        margin-left: 250px;
+    }
+    input{
+        margin-left: 100px;
+    }
+    .icon1{
+        margin-left: 100px;
+    }
+    .dots{
+        width: 200px;
+    }
+    .svgex{
+        margin-left: 50px;
+    }
+    .btnex{
+        margin-left: 35px;
+        width:130px;
+    }
+    .one{
+        margin-left: 90px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width:500px){
+    #pic{
+        transform: scale(0.6);
+        position: relative;
+        left:-70px;
+    }
+    .ex{
+        width: 200px;
+        margin-left: 25px;
+        height: 260px;
+    }
+    .text{
+        margin-right: 0px;
+        width: 350px;
+        margin-left: 80px;
+    }
+    #Features{
+        margin-left: 70px;
+    }
+    .section1{
+        margin-left: 0px;
+        flex-direction: column-reverse;
+    }
+    #logo{
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 450px;
+        display: none;
+    }
+    .btns{
+        display: flex;
+        flex-direction: row;
+    }
+    #firefox{
+        margin-left: 20px;
+    }
+    .slider{
+        margin-left: 70px;
+    }
+    .pic2{
+        margin-left: 0px;
+        transform: scale(0.6);
+    }
+    #chromes{
+        margin-left: 70px;
+    }
+    #firefoxs{
+        margin-left: 135px;
+        margin-top: 10px;
+    }
+    #opera{
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+    #more{
+        margin-left: 210px;
+    }
+    input{
+        margin-left: 100px;
+    }
+    .icon1{
+        margin-left: 100px;
+    }
+    .dots{
+        width: 200px;
+    }
+    .svgex{
+        margin-left: 50px;
+    }
+    .btnex{
+        margin-left: 35px;
+        width:130px;
+    }
+    .one{
+        margin-left: 70px;
+        width: 400px;
+    }
+    #logo2{
+        display: block;
+        margin: auto;
+    }
+    #simple{
+        flex-direction: column;
+    }
+    #quick{
+        flex-direction: column;
+    }
+    #easySec{
+        flex-direction: column;
+    }
+    .f{
+        margin-left: 70px;
+    }
+    .beg{
+        margin-left: 100px;
+    }
+    .extensions{
+        flex-direction: column;
+    }
+    #contact{
+        display: none;
+    }
+}
